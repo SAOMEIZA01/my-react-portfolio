@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I'm a passionate <span className='txt-grad'>front-end developer</span> with strong interest in building clean, user-friendly, and responsive mobile and web applications. With skills in <span className='txt-grad'>HTML, CSS, JavaScript, React, and Python,</span> I enjoy turning ideas into functional and visually appealing designs. My journey into tech has been fueled by curiosity, creatitvity, and the drive to keep improving with every project.</p>
+                    <p>I'm a passionate <span className='txt-grad'>front-end developer</span> with strong interest in building clean, user-friendly, and responsive mobile and web applications. With skills in <span className='txt-grad'>HTML, CSS, JavaScript, React, and Python,</span> I enjoy turning ideas into functional and visually appealing designs. My journey into tech has been fueled by curiosity, creativity, and the drive to keep improving with every project.</p>
                     <p>Beyond coding, <span className='txt-grad'>I'm focused</span> on continuous learning and problem solving. I value simplicity, attention to detail, and creating solutions that are both practical and impactful. <span className='txt-grad'>My goal</span> is to grow as a developer while contributing to projects that make a real difference for users and businesses.</p>
                 </div>
                 <div className="about-skills">
