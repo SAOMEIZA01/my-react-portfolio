@@ -11,20 +11,21 @@
     margin-bottom: 15px;
     border: solid 5px #DF8908;
     border-radius: 0 15px 0 15px;
-    width: 300px; 
+    width: 25vw; 
 }
 .about-title {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .about-title h1 {
-    padding: 0 30px;
-    font-size: 70px;
-    font-weight: 500;
+    padding: 0 3vw;
+    font-size: 450%;
+    font-weight: 600;
 }
 .about-title img {
-    width: 150px;
+    width: 15vw;
 }
 .about-sections {
     display: flex;
@@ -54,8 +55,11 @@
 .about-skill {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 0.5vw;
     transition: 0.3s;
+    width: 100%;
+}
+.about-skill span {
     width: 100%;
 }
 .about-skill:hover {
@@ -101,7 +105,7 @@
     -webkit-text-fill-color: transparent;
 }
 .about-achievment p {
-    font-size: 22px;
+    font-size: 100%;
     font-weight: 500;
 }
 

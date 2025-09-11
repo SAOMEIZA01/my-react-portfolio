@@ -22,10 +22,10 @@ const About = () => {
                     <p>Beyond coding, <span className='txt-grad'>I'm focused</span> on continuous learning and problem solving. I value simplicity, attention to detail, and creating solutions that are both practical and impactful. <span className='txt-grad'>My goal</span> is to grow as a developer while contributing to projects that make a real difference for users and businesses.</p>
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>HTML & CSS</p> <hr style={{width: "85%"}} /></div>
-                    <div className="about-skill"><p>JavaScript</p> <hr style={{width: "50%"}} /></div>
-                    <div className="about-skill"><p>React</p> <hr style={{width: "75%"}} /></div>
-                    <div className="about-skill"><p>Python</p> <hr style={{width: "60%"}} /></div>
+                    <div className="about-skill"><p>HTML & CSS</p> <span><hr style={{width: "85%"}} /></span></div>
+                    <div className="about-skill"><p>JavaScript</p> <span><hr style={{width: "50%"}} /></span></div>
+                    <div className="about-skill"><p>React</p> <span><hr style={{width: "75%"}} /></span></div>
+                    <div className="about-skill"><p>Python</p> <span><hr style={{width: "60%"}} /></span></div>
                 </div>
             </div>
         </div>

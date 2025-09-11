@@ -13,17 +13,18 @@
 }
 .services-title {
     position: relative;
+    margin-bottom: 20px;
 }
 .services-title h1 {
-    padding: 0 30px;
-    font-size: 80px;
+    padding: 0 3vw;
+    font-size: 450%;
     font-weight: 600;
     margin-top: 40px;
 }
 .services-title img {
     position: absolute;
-    width: 300px;
-    bottom: -15px;
+    width: 20vw;
+    bottom: -1.5vw;
     right: 0;
     z-index: 0;
 }

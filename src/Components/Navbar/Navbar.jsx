@@ -26,12 +26,12 @@ const Navbar = () => {
         <ul ref={menuRef} className="nav-menu">
           <FontAwesomeIcon icon={faClose} onClick={closeMenu} className='nav-mob-close'/>
           <li><AnchorLink className="anchor-link" href="#home" onClick={()=>setMenu("home")}>Home</AnchorLink>{menu==="home"? <img src={five_squares_depth} alt=""/> : <></>}</li>
-          <li><AnchorLink className="anchor-link" offset={50} href="#about" onClick={()=>setMenu("about")}>About me</AnchorLink>{menu==="about"? <img src={five_squares_depth} alt=""/> : <></>}</li>
+          <li><AnchorLink className="anchor-link" offset={50} href="#about" onClick={()=>setMenu("about")}>About</AnchorLink>{menu==="about"? <img src={five_squares_depth} alt=""/> : <></>}</li>
           <li><AnchorLink className="anchor-link" offset={50} href="#services" onClick={()=>setMenu("services")}>Services</AnchorLink>{menu==="services"? <img src={five_squares_depth} alt=""/> : <></>}</li>
           <li><AnchorLink className="anchor-link" offset={50} href="#work" onClick={()=>setMenu("work")}>Portfolio</AnchorLink>{menu==="work"? <img src={five_squares_depth} alt=""/> : <></>}</li>
           <li><AnchorLink className="anchor-link" offset={50} href="#contact" onClick={()=>setMenu("contact")}>Contact</AnchorLink>{menu==="contact"? <img src={five_squares_depth} alt=""/> : <></>}</li>
         </ul>
-        <AnchorLink className="nav-connect anchor-link" offset={50} href="#contact" onClick={()=>setMenu("contact")}>Connect With Me</AnchorLink>
+        <AnchorLink className="nav-connect anchor-link" offset={50} href="#contact" onClick={()=>setMenu("contact")}>Connect with me</AnchorLink>
     </div>
   )
 }
