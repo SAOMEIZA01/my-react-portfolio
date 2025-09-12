@@ -17,13 +17,13 @@ const Contact = () => {
             <p>I'm open to exciting projects and opportunities where I can add value. If my skills fit what you're looking for, let's connect and make it happen.</p>
             <div className="contact-details">
               <div className="contact-detail">
-                <FontAwesomeIcon icon={faEnvelope} className='icon-envelope' />  <p>almanntechnologies@gmail.com</p>
+                <FontAwesomeIcon icon={faEnvelope} className='icon-envelope txt-grad' />  <p>almanntechnologies@gmail.com</p>
               </div>
               <div className="contact-detail">
                 <FontAwesomeIcon icon={faPhoneVolume} className='icon-phonevolume' /> <p>+234 816 7094 610 | +234 708 3321 437</p>
               </div>
               <div className="contact-detail">
-                <FontAwesomeIcon icon={faLocationDot} className='icon-locationdot' /> <p className='txt-grad'>GH, Opposite Police Barrack, Daura, Katsina State, Nigeria.</p>
+                <FontAwesomeIcon icon={faLocationDot} className='icon-locationdot' /> <p>GH, Opposite Police Barrack, Daura, Katsina State, Nigeria.</p>
               </div>
             </div>
           </div>

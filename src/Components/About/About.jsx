@@ -6,6 +6,7 @@ import five_stars_depth from '../../assets/five_stars_depth.svg'
 
 const About = () => {
   return (
+    <div className='about-container'>
     <div id='about' className='about'>
         <div className="about-title">
             <h1>About Me</h1>
@@ -31,20 +32,21 @@ const About = () => {
         </div>
         <div className="about-achievments">
             <div className="about-achievment">
-                <h1>2+</h1>
+                <h2>2+</h2>
                 <p>YEARS OF EXPERIENCE</p>
             </div>
             <hr/>
             <div className="about-achievment">
-                <h1>20+</h1>
+                <h2>20+</h2>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr/>
             <div className="about-achievment">
-                <h1>2+</h1>
+                <h2>2+</h2>
                 <p>HAPPY CLIENTS</p>
             </div>
         </div>
+    </div>
     </div>
   )
 }

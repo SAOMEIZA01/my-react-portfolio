@@ -20,13 +20,13 @@
 }
 .contact-title h1 {
     padding: 0 3vw;
-    font-size: 450%;
+    font-size: 6vw;
     font-weight: 600;
 }
 .contact-section {
     display: flex;
     justify-content: space-between;
-    gap: 10vw;
+    gap: 15vh;
     width: 100%;
 }
 .contact-left {
@@ -36,7 +36,7 @@
     width: 100%;
 }
 .contact-left h1 {
-    font-size: 70px;
+    font-size: 3rem;
     font-weight: 600;
     background: linear-gradient(270deg, #DF8908 40%, #B415FF 100%);
     background-clip: text;
@@ -61,27 +61,28 @@
     align-items: center;
     gap: 20px;
 }
-.envelope, .phonevolume, .locationdot {
+.icon-envelope, .icon-phonevolume, .icon-locationdot {
     width: 20px;
+    color: #B415FF;
 }
 .contact-right {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 3vh;
     width: 100%;
 }
 .contact-right label {
     color: #D8D8D8;
-    font-size: 150%;
+    font-size: 1.2rem;
     font-weight: 500;
-    margin-bottom: -15px;
+    margin-bottom: -1vh;
 }
 .contact-right input {
     border: none;
     width: 95%;
-    height: 20px;
-    padding: 20px;
+    height: 3vh;
+    padding: 2vh 2vw;
     border-radius: 5px;
     background: #292929;
     color: #A0A0A0;
@@ -91,7 +92,7 @@
 .contact-right textarea {
     border: none;
     width: 95%;
-    padding: 20px;
+    padding: 2vw;
     border-radius: 5px;
     background: #292929;
     color: #A0A0A0;
@@ -101,11 +102,11 @@
 .contact-submit {
     border: none;
     color: white;
-    border-radius: 50px;
+    border-radius: 40px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    font-size: 95%;
+    font-size: clamp(1em, 1vw, 2em);
     font-weight: 200;
-    padding: 1.2vw 5vw;
+    padding: 2vh 2.5vw;
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
@@ -129,19 +130,19 @@
 
 @media (max-width: 768px) {
     .contact {
-        gap: 50px;
-        margin: 50px 70px;
+        gap: 5vw;
+        margin: 5vw 7vw;
         align-items: center;
     }
     .contact-title h1 {
         padding: 0;
-        font-size: 50px;
+        font-size: 250%;
         font-weight: 600;
     }
     .contact-title img {
-        width: 250px;
-        top: -25px;
-        margin-right: -20px;
+        width: 25vw;
+        top: 1vw;
+        margin-right: -2vw;
     }
     .contact-section {
         flex-direction: column;
@@ -171,19 +172,18 @@
         margin-bottom: -10px;
     }
     .contact-right input {
-        width: 95%;
-        height: 15px;
-        padding: 15px;
-        font-size: 18px;
+        justify-content: center;
+        height: 1.5vw;
+        padding: 2vw;
+        font-size: 95%;
     }
     .contact-right textarea {
-        width: 95%;
-        font-size: 20px;
+        font-size: 95%;
     }
     .contact-submit {
-        font-size: 18px;
-        padding: 15px 40px;
-        border-radius: 25px;
+        font-size: 90%;
+        padding: 1.5vw 4vw;
+        border-radius: 2vw;
         text-align: center;
     }
 }
