@@ -64,7 +64,6 @@
     font-size: clamp(1em, 1.3vw, 1.5em);
     color: #d4d4d4;
     line-height: 3.5vh;
-    max-width: none;
 }
 .services-readmore {
     display: flex;
@@ -82,35 +81,36 @@
 @media (max-width: 768px) {
     .services {
         align-items: center;
-        gap: 70px;
-        margin: 20px 70px;
+        gap: 5vh;
+        margin: 5vh 10vw;
     }
     .services-title h1 {
         padding: 0;
-        font-size: 50px;
+        font-size: 8vw;
     }
     .services-title img {
         position: absolute;
-        width: 190px;
-        margin-right: -20px;
+        width: 30vw;
+        top: 5vh;
+        margin-right: -2vw;
     }
     .services-container {
         grid-template-columns: 1fr 1fr;
     }
     .services-format {
-        gap: 20px;
-        padding: 30px;
+        gap: 2vh;
+        padding: 3vw;
         font-weight: 350;
     }
     .services-format h3 {
-        font-size: 23px;
+        font-size: clamp(1em, 2.5vw, 1.3em);
     }
     .services-format p {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: clamp(1em, 2vw, 1.5em);
+        line-height: 3.5vh;
         max-width: none;
     }
     .services-readmore {
-        font-size: 16px;
+        font-size: 1em;
     }
 }

@@ -24,9 +24,9 @@ const Footer = () => {
         <div className="footer-bottom">
             <p className="footer-bottom-left">© 2025 Abdulrazaq Shuaibu | All Rights Reserved</p>
             <div className="footer-bottom-right">
-                <p>📝Term Of Service</p>
-                <p>⚖ Privacy Policy</p>
-                <p>🔗 Connect With Me</p>
+                <p>Term Of Service</p>
+                <p>Privacy Policy</p>
+                <p>Connect With Me</p>
             </div>
         </div>
     </div>

@@ -4,12 +4,12 @@
     align-items: center;
     justify-content: center;
     padding-top: 40px;
-    gap: 80px;
-    margin: 80px 170px;
+    gap: 10vh;
+    margin: 8vh 10vw;
 }
 .mywork-title {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
 }
 .mywork-title img {
     width: 28vw;
@@ -26,7 +26,7 @@
 .mywork-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 3vw;
 }
 .mywork-container img {
     box-sizing: border-box;
@@ -64,7 +64,7 @@
 @media (max-width: 768px) {
     .mywork {
         gap: 50px;
-        margin: 50px 70px;
+        margin: 5vh 10vw;
         align-items: center;
     }
     .mywork-title h1 {
@@ -80,16 +80,16 @@
     }
     .mywork-container {
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 4vw;
     }
     .mywork-container img {
         width: 100%;
         height: 100%;
     }
     .mywork-showmore {
-        padding: 20px 40px;
-        font-size: 18px;
-        margin: 30px auto;
+        padding: 2vh 4vw;
+        font-size: 1rem;
+        margin: 3vh auto;
         cursor: pointer;
     }
 }
