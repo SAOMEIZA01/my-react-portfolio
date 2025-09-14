@@ -11,25 +11,26 @@
     margin: 8vh 10vw;
     padding-top: 10vh;
 }
-.about-left-image {
-    margin-bottom: 15px;
-    border: solid 5px #DF8908;
-    border-radius: 0 15px 0 15px;
-    width: 25vw; 
-}
 .about-title {
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
 }
 .about-title h1 {
+    position: relative;
     padding: 0 3vw;
     font-size: 6vw;
     font-weight: 600;
+    font-family: 'outfit', sans-serif;
 }
 .about-title img {
-    width: 15vw;
+    position: absolute;
+    width: 20vw;
+    top: 3vh;
+    right: 0;
+    z-index: 1;
 }
 .about-sections {
     display: flex;
@@ -42,6 +43,12 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+.about-left-image {
+    margin-bottom: 1.5vh;
+    border: solid 5px #DB9C3D;
+    border-radius: 0 15px 0 15px;
+    width: 25vw; 
 }
 .about-para {
     display: flex;
@@ -81,7 +88,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background: linear-gradient(264deg, #DB9C3D -5.09%, #CA84F8 106.28%);
 }
 .about-achievments {
     display: flex;
@@ -104,7 +111,7 @@
 .about-achievment h2 {
     font-size: 3rem;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    background: linear-gradient(270deg, #DB9C3D 50.41%, #CA84F8 90.25%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -113,14 +120,10 @@
     font-size: 1rem;
     font-weight: 500;
 }
-.about-achievment hr {
-    height: 10vh;
-    width: 10vh;
-}
 
 /* ===== COLOR GRADIENT ===== */
 .txt-grad {
-    background: linear-gradient(270deg, #DF8908, #B415FF);
+    background: linear-gradient(270deg, #DB9C3D 10%, #CA84F8 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -140,7 +143,8 @@
         padding: 0;
     }
     .about-title img {
-        width: 100px;
+        width: 30vw;
+        top: 1vh;
     }
     .about-sections {
         flex-direction: column;
@@ -152,22 +156,16 @@
         display: none;
     }
     .about-para {
-        font-size: 18px;
-        line-height: 32px;
-        margin-top: -100px;
-        float: right;
-    }
-    .about-para-image {
-        width: 200px;
-        border: solid 3px #DF8908;
-        float: left;
+        font-size: 1.05rem;
+        line-height: 3.5vh;
+        margin-top: -10vh;
     }
     .about-skill {
         gap: 15px;
         align-items: center;
     }
     .about-skill p {
-        font-size: 18px;
+        font-size: 1.05rem;
         min-width: 100px;
     }
     .about-skill hr {

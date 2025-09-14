@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import five_squares_depth from '../../assets/five_squares_depth.svg'
+import blob_pattern from '../../assets/blob_pattern.svg'
 import profile_img from '../../assets/profile_img.jpg'
 import five_stars_depth from '../../assets/five_stars_depth.svg'
 
@@ -10,7 +10,7 @@ const About = () => {
     <div id='about' className='about'>
         <div className="about-title">
             <h1>About Me</h1>
-            <img src={five_squares_depth} alt="five_squares_depth" />
+            <img src={blob_pattern} alt="blob pattern" />
         </div>
         <div className="about-sections">
             <div className="about-left">
