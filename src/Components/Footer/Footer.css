@@ -20,7 +20,7 @@
 .footer-top-right {
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 0.2vw;
 }
 .footer-email-input {
     display: flex;
@@ -28,14 +28,14 @@
     justify-content: center;
     gap: 5px;
     width: 64.5%;
-    padding: 1.5vw 2.1vw;
+    padding: 1.8vh 2.1vw;
     border-radius: 3vw 0 0 3vw;
     margin-right: 1px;
     background: #292929;
     padding-right: 4vw;
 }
 .user-icon {
-    margin-left: 20px;
+    margin-left: 0.7vw;
 }
 .footer-email-input input {
     outline: none;
@@ -55,7 +55,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    padding: 1.5vw 3vw;
+    padding: 1.8vh 3vw;
     border-radius: 0 3vw 3vw 0;
     background: linear-gradient(264deg, #DB9C3D -5.09%, #CA84F8 106.28%);
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -99,10 +99,14 @@
         gap: 50px;
     }
     .footer-top-right {
-        width: 100%;
+        gap: 0.5vw;
+    }
+    .footer-email-input {
+        padding: 1.8vh auto;
+        gap: 1.5vw;
     }
     .user-icon {
-        margin-left: 15px;
+        margin-left: 1.5vw;
     }
     /*.footer-email-input {
         width: 70%;
