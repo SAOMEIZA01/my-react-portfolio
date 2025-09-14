@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
 }
 .nav-menu {
     display: flex;
@@ -86,7 +86,7 @@
         align-items: start;
         top: 0;
         gap: 3vw;
-        background: linear-gradient(90deg, #292929, #735e81);
+        background: linear-gradient(90deg, #292929, #735E81);
         width: 35vw;
         height: 100%;
         z-index: 2;
