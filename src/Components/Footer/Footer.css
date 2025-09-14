@@ -107,7 +107,7 @@
         gap: 1.5vw;
     }
     .user-icon {
-        margin-left: 1.5vw;
+        margin-left: 5px;
         font-size: clamp(0.8rem, 2.5vw, 1rem);
     }
     /*.footer-email-input {
