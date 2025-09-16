@@ -26,13 +26,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5vw;
+    gap: 5px;
     width: 64.5%;
-    padding: 1.8vh 2.5vw 1.8vh 1vw;
     border-radius: 3vw 0 0 3vw;
     margin-right: 1px;
     background: #292929;
-    padding-right: 4vw;
+    padding-left: 20px;
     font-size: 1rem;
 }
 .user-icon {
@@ -45,10 +44,11 @@
     color: #a0a0a0;
     font-family: 'outfit', sans-serif;
     font-size: 1rem;
+    padding: 1.5vw 2.5vw 1.5vw 0;
 }
 .footer-email-input:hover {
     border: solid 2px #CA84F8;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.6s;
 }
 .footer-subscribe {
@@ -56,7 +56,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    padding: 1.8vh 1.5vw;
+    padding: 1.5vw 1.5vw;
     border-radius: 0 3vw 3vw 0;
     background: linear-gradient(264deg, #DB9C3D -5.09%, #CA84F8 106.28%);
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -66,8 +66,8 @@
 }
 .footer-subscribe:hover {
     border: solid 2px #fff;
-    transform: scale(1.1);
-    transition: 0.3s;
+    transform: scale(1.05);
+    transition: 0.6s;
 }
 .footer-bottom {
     display: flex;
@@ -103,11 +103,17 @@
         gap: 0.5vw;
     }
     .footer-email-input {
-        padding: 1.8vh 2.8% 1.8vh 15px;
-        gap: 3px;
+        gap: 3.5px;
+        padding-left: 15px;
+    }
+    .footer-email-input input {
+        padding: 2vw 2.8% 2vw 0;
+    }
+    .footer-subscribe {
+        padding: 2vw 1.5vw;
     }
     .user-icon {
-        margin-left: 1vw;
+        margin-left: 0;
         font-size: clamp(0.8rem, 2.5vw, 1rem);
     }
     /*.footer-email-input {

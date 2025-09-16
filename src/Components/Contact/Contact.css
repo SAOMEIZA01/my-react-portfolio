@@ -82,7 +82,7 @@
     border: none;
     width: 95%;
     height: 3vh;
-    padding: 2vh 2vw;
+    padding: 2.5vw 2vw;
     border-radius: 5px;
     background: #292929;
     color: #A0A0A0;
@@ -92,12 +92,11 @@
 .contact-right input:focus {
     border: none;
     outline: none;
-    padding: 2.5vw;
 }
 .contact-right textarea {
     border: none;
     width: 95%;
-    padding: 2vw;
+    padding: 2.5vw 2vw;
     border-radius: 5px;
     background: #292929;
     color: #A0A0A0;
