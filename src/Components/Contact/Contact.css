@@ -89,6 +89,9 @@
     font-family: 'outfit', sans-serif;
     font-size: 100%;
 }
+.contact-right input:focus {
+    border: none;
+}
 .contact-right textarea {
     border: none;
     width: 95%;
@@ -98,6 +101,9 @@
     color: #A0A0A0;
     font-family: 'outfit', sans-serif;
     font-size: 100%;
+}
+.contact-right textarea:focus {
+    border: none;
 }
 .contact-submit {
     border: none;
@@ -170,13 +176,13 @@
         width: 25px;
     }
     .contact-right label {
-        font-size: 18px;
+        font-size: 3.5vw;
         margin-bottom: -10px;
     }
     .contact-right input {
         justify-content: center;
-        height: 1.5vw;
-        padding: 2vw;
+        height: 2vh;
+        padding: 2vh 2vw;
         font-size: 95%;
     }
     .contact-right textarea {
