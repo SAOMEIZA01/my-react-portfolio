@@ -158,17 +158,17 @@
         align-items: center;
     }
     .contact-left p {
-        font-size: 18px;
+        font-size: 1rem;
     }
     .contact-left h1 {
-        font-size: 35px;
+        font-size: 6vw;
     }
     .contact-detail {
         gap: 5px;
     }
     .contact-detail p{
         margin-left: 15px;
-        font-size: 16px;
+        font-size: 1rem;
     }
     .contact-right {
         margin-top: -50px;
@@ -182,11 +182,11 @@
     }
     .contact-right input {
         justify-content: center;
-        padding: 2vh 2vw;
+        padding: 2.5vw 2vw;
         font-size: 95%;
     }
     .contact-right textarea {
-        font-size: 95%;
+        font-size: 1em;
     }
     .contact-submit {
         font-size: 90%;
