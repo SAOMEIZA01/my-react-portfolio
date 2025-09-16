@@ -91,6 +91,8 @@
 }
 .contact-right input:focus {
     border: none;
+    outline: none;
+    padding: 2.5vw;
 }
 .contact-right textarea {
     border: none;
@@ -104,6 +106,7 @@
 }
 .contact-right textarea:focus {
     border: none;
+    outline: none;
 }
 .contact-submit {
     border: none;
@@ -144,12 +147,11 @@
     }
     .contact-title h1 {
         padding: 0;
-        font-size: 250%;
-        font-weight: 600;
+        font-size: 8vw;
     }
     .contact-title img {
-        width: 25vw;
-        top: 1vw;
+        width: 30vw;
+        top: 1vh;
         margin-right: -2vw;
     }
     .contact-section {
@@ -181,7 +183,6 @@
     }
     .contact-right input {
         justify-content: center;
-        height: 2vh;
         padding: 2vh 2vw;
         font-size: 95%;
     }
