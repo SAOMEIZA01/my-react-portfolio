@@ -1,10 +1,10 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import five_circles from '../../assets/five_circles.svg'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { faClose } from '@fortawesome/free-solid-svg-icons'
 
 
 const Navbar = () => {
@@ -18,12 +18,29 @@ const Navbar = () => {
   const closeMenu = () => {
     menuRef.current.style.right = "-350px";
   }
+  
+  useEffect(()=>{
+    const handleClickOutside =(event)=>{
+      if(menuRef.current && !menuRef.current.contains(event.target)){
+      closeMenu();
+    }
+    };
+    
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  },[]);
 
   return (
     <div className='navbar'>
         <img src={logo} alt="My Logo" />
-        <FontAwesomeIcon icon={faBars} onClick={openMenu} className='nav-mob-open' />
-        <ul ref={menuRef} className="nav-menu">
+        <div className='nav-mob-open' onClick={(e)=>{e.stopPropagation(); openMenu();}}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul ref={menuRef} className="nav-menu" onClick={(e)=>e.stopPropagation()}>
           <FontAwesomeIcon icon={faClose} onClick={closeMenu} className='nav-mob-close'/>
           <li><AnchorLink className="anchor-link" href="#home" onClick={()=>setMenu("home")}>Home</AnchorLink>{menu==="home"? <img src={five_circles} alt=""/> : <></>}</li>
           <li><AnchorLink className="anchor-link" offset={50} href="#about" onClick={()=>setMenu("about")}>About</AnchorLink>{menu==="about"? <img src={five_circles} alt=""/> : <></>}</li>

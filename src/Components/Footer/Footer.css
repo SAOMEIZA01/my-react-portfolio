@@ -1,4 +1,5 @@
 .footer {
+    box-sizing: border-box;
     margin: 5vh  10vw;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,7 @@
     display: flex;
     gap: 1vw;
     justify-content: space-between;
+    width: 100%;
 }
 .footer-top-left p {
     font-size: 1rem;
@@ -18,37 +20,37 @@
     margin-bottom: 10px;
 }
 .footer-top-right {
+    width: 50%;
     display: flex;
     align-items: center;
-    gap: 0.2vw;
+    gap: 3px;
 }
 .footer-email-input {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    width: 64.5%;
+    box-sizing: border-box;
+    gap: 15px;
+    width: 65%;
     border-radius: 3vw 0 0 3vw;
-    margin-right: 1px;
     background: #292929;
-    padding-left: 20px;
     font-size: 1rem;
 }
 .user-icon {
-    margin-left: 1.5vw;
+    font-size: 1rem;
 }
 .footer-email-input input {
     outline: none;
     border: none;
     background: transparent;
     color: #a0a0a0;
-    font-family: 'outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 1rem;
-    padding: 1.5vw 2.5vw 1.5vw 0;
+    padding: 1.5vw 0;
 }
 .footer-email-input:hover {
-    border: solid 2px #CA84F8;
-    transform: scale(1.05);
+    border: solid 1px #CA84F8;
+    transform: scale(1.02);
     transition: 0.6s;
 }
 .footer-subscribe {
@@ -56,17 +58,17 @@
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    padding: 1.5vw 1.5vw;
+    padding: 1.5vw 0;
+    width: 35%;
     border-radius: 0 3vw 3vw 0;
     background: linear-gradient(264deg, #DB9C3D -5.09%, #CA84F8 106.28%);
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     cursor: pointer;
-    transition: 0.3s;
-    width: 35%;
+    transition: 0.6s;
 }
 .footer-subscribe:hover {
-    border: solid 2px #fff;
-    transform: scale(1.05);
+    border: solid 1px #fff;
+    transform: scale(1.02);
     transition: 0.6s;
 }
 .footer-bottom {
@@ -74,6 +76,7 @@
     justify-content: space-between;
     font-size: 1rem;
     gap: 1.5vw;
+    margin-bottom: 5vh;
 }
 .footer-bottom-right {
     display: flex;
@@ -100,40 +103,33 @@
         gap: 50px;
     }
     .footer-top-right {
-        gap: 0.5vw;
+        width: 100%;
     }
     .footer-email-input {
-        gap: 3.5px;
-        padding-left: 15px;
+        width: 70%;
     }
     .footer-email-input input {
-        padding: 2vw 2.8% 2vw 0;
+        padding: 2vw 0;
+        width: 75%;
     }
     .footer-subscribe {
-        padding: 2vw 1.5vw;
+        padding: 2vw 0;
+        width: 30%;
     }
     .user-icon {
-        margin-left: 10px;
         font-size: clamp(0.8rem, 2.5vw, 1rem);
     }
-    /*.footer-email-input {
-        width: 70%;
-        padding: 2vw 2.5vw;
-    }*/
     .footer-email-input:hover {
-    border: solid 1px #B415FF;
-    transform: scale(1.05);
-    transition: 0.6s;
+        border: solid 1px #B415FF;
+        transform: scale(1.02);
+        transition: 0.6s;
     }
-    /*.footer-subscribe {
-        width: 30%;
-        padding: 14px 20px;
-    }*/
     .footer-subscribe:hover {
-    border: solid 1px #fff;
-    transform: scale(1.05);
-    transition: 0.6s;
+        border: solid 1px #fff;
+        transform: scale(1.02);
+        transition: 0.6s;
     }
+    
     .footer-bottom {
         display: flex;
         flex-direction: column;
@@ -142,8 +138,10 @@
     }
     .footer-bottom-left {
         margin-bottom: 3vh;
+        font-size: clamp( 0.8rem, 2.5vw, 1rem);
     }
     .footer-bottom-right {
         gap: 2.5vw;
+        font-size: clamp( 0.8rem, 2.5vw, 1rem);
     }
 }
