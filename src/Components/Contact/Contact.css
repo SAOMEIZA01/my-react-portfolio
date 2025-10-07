@@ -192,6 +192,10 @@
         font-size: 1em;
         padding: 1.5rem;
     }
+    .contact-right input:focus,
+    .contact-right textarea:focus {
+        margin-top: 5px;
+    }
     .contact-submit {
         font-size: 1em;
         padding: 1.5vw 4vw;

@@ -1,22 +1,22 @@
 .about-container {
     background: linear-gradient(90deg,#161513, #292929);
-    margin-top: -15vh;
+    margin-top: -15vw;
 }
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10vh;
-    margin: 8vh 10vw;
-    padding-top: 10vh;
+    gap: 10vw;
+    margin: 10vw;
+    padding-top: 10vw;
 }
 .about-title {
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
 }
 .about-title h1 {
     position: relative;
@@ -28,7 +28,7 @@
 .about-title img {
     position: absolute;
     width: 20vw;
-    top: 3vh;
+    top: 3vw;
     right: 0;
     z-index: 1;
 }
@@ -36,16 +36,13 @@
     display: flex;
     gap: 8vw;
 }
-/*.about-sections img {
-    width: 250px;
-}*/
 .about-right {
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 .about-left-image {
-    margin-bottom: 1.5vh;
+    margin-bottom: 1.5vw;
     border: solid 5px #DB9C3D;
     border-radius: 0 15px 0 15px;
     width: 25vw; 
@@ -94,14 +91,14 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin-bottom: 20vh;
-    margin-top: 5vh;
+    margin-bottom: 20vw;
+    margin-top: 5vw;
 }
 .about-achievment {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5vh;
+    gap: 1.7vw;
     transition: 0.5s;
 }
 .about-achievment:hover {
@@ -117,7 +114,7 @@
     -webkit-text-fill-color: transparent;
 }
 .about-achievment p {
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 500;
 }
 
@@ -132,11 +129,11 @@
 @media (max-width: 768px) {
     .about {
         align-items: center;
-        margin: 5vh 10vw;
-        gap: 8vh;
+        margin: 5vw 10vw;
+        gap: 10vw;
     }
     .about-title {
-        margin-bottom: 6vh;
+        margin-bottom: 6vw;
     }
     .about-title h1 {
         font-size: 8vw;
@@ -144,7 +141,7 @@
     }
     .about-title img {
         width: 30vw;
-        top: 1vh;
+        top: 1vw;
     }
     .about-sections {
         flex-direction: column;
@@ -157,8 +154,8 @@
     }
     .about-para {
         font-size: 1.05rem;
-        line-height: 3.5vh;
-        margin-top: -10vh;
+        line-height: 3.5vw;
+        margin-top: -10vw;
     }
     .about-skill {
         gap: 15px;

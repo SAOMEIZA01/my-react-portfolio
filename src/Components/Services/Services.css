@@ -82,8 +82,8 @@
 @media (max-width: 768px) {
     .services {
         align-items: center;
-        gap: 5vh;
-        margin: 5vh 10vw;
+        gap: 5vw;
+        margin: 5vw 10vw;
     }
     .services-title h1 {
         padding: 0;
@@ -92,14 +92,14 @@
     .services-title img {
         position: absolute;
         width: 30vw;
-        top: 5vh;
+        top: 5vw;
         margin-right: -2vw;
     }
     .services-container {
         grid-template-columns: 1fr 1fr;
     }
     .services-format {
-        gap: 2vh;
+        gap: 2vw;
         padding: 3vw;
         font-weight: 350;
     }
@@ -111,7 +111,7 @@
     }
     .services-format p {
         font-size: 0.8rem;
-        line-height: 3vh;
+        line-height: 3.5vw;
         max-width: none;
     }
     .services-readmore {
