@@ -47,13 +47,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: stretch;
     gap: 2vw;
-    margin-bottom: 8vh;
+    margin-bottom: 8vw;
 }
 .services-format h2 {
     font-size: 2rem;
 }
 .services-format h3 {
-    font-size: clamp(1.3em, 1.8vw, 1.6em);
+    font-size: clamp(1.5rem, 2vw, 1.8rem);
     font-weight: 600;
     background: linear-gradient(270deg, #DB9C3D 50%, #CA84F8 100%);
     background-clip: text;
@@ -61,15 +61,15 @@
     -webkit-text-fill-color: transparent;
 }
 .services-format p {
-    font-size: clamp(1em, 1.3vw, 1.5em);
+    font-size: clamp(1.5rem, 2vw, 1.8rem);
     color: #d4d4d4;
-    line-height: 3.5vh;
+    line-height: 25px;
 }
 .services-readmore {
     display: flex;
     align-items: center;
     gap: 2vw;
-    margin-top: 2vh;
+    margin-top: 2vw;
     font-weight: 500;
 }
 .services-format:hover {

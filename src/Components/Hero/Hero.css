@@ -78,7 +78,7 @@
     .hero p {
         width: 70%;
         font-size: 1.1rem;
-        line-height: 4vw;
+        line-height: 25px;
         margin: 2vw 0;
     }
     .hero-action {
