@@ -66,8 +66,9 @@
 @media (max-width: 768px) {
     .mywork {
         box-sizing: border-box;
-        gap: 50px;
+        gap: 40px;
         margin: 5vw 10vw;
+        margin-bottom: 10vw;
         align-items: center;
     }
     .mywork-title h1 {
@@ -80,6 +81,7 @@
     }
     .mywork-container {
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 0;
         gap: 4vw;
     }
     .mywork-container img {
@@ -91,5 +93,6 @@
         font-size: 1rem;
         margin: 3vw 0;
         cursor: pointer;
+
     }
 }
