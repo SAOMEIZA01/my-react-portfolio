@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import blob_pattern from '../../assets/blob_pattern.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faLocationDot, faPaperPlane, faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faLocationDot, faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return (
@@ -34,9 +34,9 @@ const Contact = () => {
             <input type="email" placeholder='Enter your email' name="email" />
             <label htmlFor="">Your Message:</label>
             <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
-            <button type="submit" id="contact-submit" className='contact-submit'>
-              <FontAwesomeIcon icon={faPaperPlane} className='fa-paper-plane' />Submit Form
-            </button>
+            <div className="submit-btn">
+              <button type="submit" id="contact-submit" className='contact-submit'>Submit Form</button>
+            </div>
           </form>
         </div>
     </div>

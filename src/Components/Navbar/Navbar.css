@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    gap: 1vw;
+    gap: 25px;
     padding: 1vw 3vw;
-    background: linear-gradient(to bottom, #1e1e1e, #292929);
+    background: linear-gradient(210deg, #292929, #323232);
     position: fixed;
     top: 0;
     left: 0;
@@ -16,8 +16,8 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 6vw;
-    font-size: 1.2rem;
+    gap: 4vw;
+    font-size: 1rem;
 }
 .nav-menu li {
     display: flex;
@@ -30,7 +30,7 @@
     margin: auto;
 }
 .nav-connect {
-    padding: 2vh 3.5vw;
+    padding: 8px 30px;
     border-radius: 30px;
     background: linear-gradient(267deg, #DB9C3D 0.36%, #CA84F8 102.06%);
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -51,6 +51,15 @@
 }
 .nav-mob-open {
     display: none;
+}
+.nav-mob-close {
+    display: none;
+}
+
+@media(max-width: 1024px) {
+    .navbar {
+        padding: 1.5vw 2vw;
+    }
 }
 
 @media (max-width: 768px) {
