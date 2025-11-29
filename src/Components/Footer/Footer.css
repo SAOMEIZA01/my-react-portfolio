@@ -8,18 +8,17 @@
 }
 .footer-top {
     display: flex;
-    flex: 1;
-    gap: 30px;
+    gap: 20px;
     justify-content: space-between;
     width: 100%;
     margin-top: 60px;
     box-sizing: border-box;
 }
 .footer-top-left {
-    width: 100%;
+    flex: 2;
 }
 .footer-top-right {
-    width: 100%;
+    flex: 3;
     display: flex;
     align-items: center;
     gap: 3px;
@@ -33,21 +32,22 @@
     margin-bottom: 10px;
 }
 .footer-email-input {
+    flex: 2;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     padding: 20px;
-    gap: 1vw;
-    width: 65%;
+    gap: 10px;
     border-radius: 50px 0 0 50px;
     background: #292929;
     font-size: 1rem;
 }
 .footer-email-input .user-icon {
-    flex: 1;
+    margin: 0 !important;
 }
 .footer-email-input input {
-    flex: 3;
+    flex: 1;
+    margin: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -58,26 +58,25 @@
 .footer-email-input:hover {
     border: solid 1px #CA84F8;
     transform: scale(1.02);
-    transition: 0.6s;
+    transition: 0.5s;
 }
 .footer-subscribe {
+    flex: 1;
+    border: none;
+    color: white;
     box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 1rem;
     padding: 18px;
-    width: 35%;
     border-radius: 0 50px 50px 0;
     background: linear-gradient(264deg, #DB9C3D -5.09%, #CA84F8 106.28%);
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
     cursor: pointer;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 .footer-subscribe:hover {
     border: solid 1px #fff;
     transform: scale(1.02);
-    transition: 0.6s;
+    transition: 0.5s;
 }
 .footer-bottom {
     display: flex;
@@ -113,28 +112,20 @@
     }
     .footer-top {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
+    }
+    .footer-top-right {
+        width: 100%;
     }
     .footer-top-left p {
         font-size: 0.9rem;
     }
     .footer-email-input {
-        padding: 15px;
-    }
-    .footer-email-input:hover {
-        border: solid 1px #B415FF;
-        transform: scale(1.02);
-        transition: 0.5s;
+        padding: 16px;
     }
     .footer-subscribe {
         padding: 13px;
     }
-    .footer-subscribe:hover {
-        border: solid 1px #fff;
-        transform: scale(1.02);
-        transition: 0.5s;
-    }
-    
     .footer-bottom {
         display: flex;
         flex-direction: column;

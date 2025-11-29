@@ -14,10 +14,10 @@ const Footer = () => {
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
-                    <FontAwesomeIcon icon={faUser} className='user-icon' />
+                    <FontAwesomeIcon icon={faUser} className='user-icon'/>
                     <input type="email" placeholder='Enter your email' />
                 </div>
-                <div className="footer-subscribe">Subscribe</div>
+                <button className="footer-subscribe">Subscribe</button>
             </div>
         </div>
         <hr />

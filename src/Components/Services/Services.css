@@ -35,7 +35,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: stretch;
     gap: 25px;
-    margin-bottom: 8vw;
+    margin-bottom: 70px;
 }
 .services-format {
     display: flex;
@@ -92,9 +92,11 @@
     .services-title img {
         width: 150px;
         top: 50px;
+        left: 30px;
     }
     .services-container {
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 65px;
     }
     .services-format {
         gap: 2vw;
