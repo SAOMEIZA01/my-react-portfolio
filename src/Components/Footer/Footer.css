@@ -56,7 +56,6 @@
     font-family: 'Poppins', sans-serif;
 }
 .footer-email-input:hover {
-    border: solid 1px #CA84F8;
     transform: scale(1.02);
     transition: 0.5s;
 }
@@ -66,7 +65,7 @@
     color: white;
     box-sizing: border-box;
     font-size: 1rem;
-    padding: 18px;
+    padding: 17px;
     border-radius: 0 50px 50px 0;
     background: linear-gradient(264deg, #DB9C3D -5.09%, #CA84F8 106.28%);
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -74,7 +73,6 @@
     transition: 0.5s;
 }
 .footer-subscribe:hover {
-    border: solid 1px #fff;
     transform: scale(1.02);
     transition: 0.5s;
 }
@@ -114,8 +112,11 @@
         flex-direction: column;
         gap: 30px;
     }
+    .footer-top-right, .footer-top-left {
+        flex: 1;
+    }
     .footer-top-right {
-        width: 100%;
+        margin-bottom: 20px;
     }
     .footer-top-left p {
         font-size: 0.9rem;
