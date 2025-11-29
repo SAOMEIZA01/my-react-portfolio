@@ -209,12 +209,12 @@
         margin: 5vw;
     }
     .about-para {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .about-skill p {
         font-size: 0.9rem;
     }
-    .about-skill hr {
+    .about-skill hr, .about-skill span {
         height: 4px;
     }
     .about-achievments hr {
