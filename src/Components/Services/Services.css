@@ -97,6 +97,7 @@
     .services-container {
         grid-template-columns: 1fr 1fr;
         margin-bottom: 65px;
+        gap: 20px;
     }
     .services-format {
         gap: 2vw;
@@ -119,5 +120,14 @@
         margin-top: 0;
         color: skyblue;
         font-weight: 500;
+    }
+}
+
+@media(max-width:500px){
+    .services {
+        margin: 50px 5vw;
+    }
+    .services-container {
+        gap: 15px;
     }
 }

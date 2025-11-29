@@ -96,3 +96,12 @@
 
     }
 }
+
+@media(max-width:500px){
+    .mywork {
+        margin: 8vw 5vw;
+    }
+    .mywork-container {
+        gap: 3.5vw;
+    }
+}

@@ -205,3 +205,9 @@
         text-align: center;
     }
 }
+
+@media(max-width:500px){
+    .contact {
+        margin: 5vw;
+    }
+}

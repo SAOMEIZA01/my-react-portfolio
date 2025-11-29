@@ -148,7 +148,7 @@
         margin-bottom: 6vw;
     }
     .about-title h1 {
-        font-size: 8vw;
+        font-size: clamp(2rem, 3vw, 2.5rem);
         padding: 0;
     }
     .about-title img {
@@ -169,7 +169,7 @@
     margin-top: 0;
 }
     .about-para {
-        font-size: 1.05rem;
+        font-size: 1rem;
         line-height: 25px;
         margin-top: -10vw;
     }
@@ -178,7 +178,7 @@
         align-items: center;
     }
     .about-skill p {
-        font-size: 1.05rem;
+        font-size: 1rem;
         min-width: 100px;
     }
     .about-skill hr {
@@ -186,6 +186,10 @@
     }
     .about-achievments {
         justify-content: space-between;
+        width: 90%;
+    }
+    .about-achievments hr {
+        height: 60px;
     }
     .about-achievment {
         max-width: 40px;
@@ -197,5 +201,29 @@
     .about-achievment p {
         text-align: center;
         font-size: 0.8rem;
+    }
+}
+
+@media(max-width:500px){
+    .about {
+        margin: 5vw;
+    }
+    .about-para {
+        font-size: 0.8rem;
+    }
+    .about-skill p {
+        font-size: 0.9rem;
+    }
+    .about-skill hr {
+        height: 4px;
+    }
+    .about-achievments hr {
+        height: 50px;
+    }
+    .about-achievment h2 {
+        font-size: 2rem;
+    }
+    .about-achievment p {
+        font-size: 0.7rem;
     }
 }
