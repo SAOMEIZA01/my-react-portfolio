@@ -135,7 +135,7 @@
 
 /* ======== COLOR GRADIENT ======== */
 .txt-grad {
-    background: linear-gradient(270deg, #DB9C3D 50.41%, #CA84F8 90.25%);
+    background: linear-gradient(264deg, #ECD0A6 5.41%, #CA84F8 100.25%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

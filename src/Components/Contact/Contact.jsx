@@ -28,11 +28,11 @@ const Contact = () => {
             </div>
           </div>
           <form className="contact-right" action="https://formspree.io/f/xandlabz" method="POST">
-            <label htmlFor="">Your Name:</label>
+            <label htmlFor="" className='txt-grad'>Your Name:</label>
             <input type="text" placeholder='Enter your name' name="name" />
-            <label htmlFor="">Your Email:</label>
+            <label htmlFor="" className='txt-grad'>Your Email:</label>
             <input type="email" placeholder='Enter your email' name="email" />
-            <label htmlFor="">Your Message:</label>
+            <label htmlFor="" className='txt-grad'>Your Message:</label>
             <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
             <div className="submit-btn">
               <button type="submit" id="contact-submit" className='contact-submit'>Submit Form</button>

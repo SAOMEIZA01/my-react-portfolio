@@ -97,6 +97,9 @@
 }
 
 @media (max-width:768px) {
+    .hero {
+        padding-bottom: 70px;
+    }
     .hero-top {
         display: flex;
         flex-direction: column;
@@ -156,6 +159,9 @@
 }
 
 @media(max-width:500px){
+    .hero {
+        padding-bottom: 50px;
+    }
     .hero-top {
         padding-top: 100px;
     }
