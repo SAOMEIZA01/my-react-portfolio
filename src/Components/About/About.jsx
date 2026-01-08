@@ -27,9 +27,11 @@ const About = () => {
                     <div className="about-skill"><p>HTML & CSS</p> <span><hr style={{width: "90%"}} /></span></div>
                     <div className="about-skill"><p>JavaScript</p> <span><hr style={{width: "65%"}} /></span></div>
                     <div className="about-skill"><p>React.js</p> <span><hr style={{width: "80%"}} /></span></div>
+                    <div className="about-skill"><p>Tailwindcss</p> <span><hr style={{width: "75%"}} /></span></div>
                     <div className="about-skill"><p>Node.js</p> <span><hr style={{width: "65%"}} /></span></div>
                     <div className="about-skill"><p>Python</p> <span><hr style={{width: "60%"}} /></span></div>
-                    <div className="about-skill"><p>Tailwindcss</p> <span><hr style={{width: "75%"}} /></span></div>
+                    <div className="about-skill"><p>SQL</p> <span><hr style={{width: "50%"}} /></span></div>
+                    <div className="about-skill"><p>PHP</p> <span><hr style={{width: "40%"}} /></span></div>
                 </div>
             </div>
         </div>
