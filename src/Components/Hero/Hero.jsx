@@ -21,9 +21,10 @@ const Hero = () => {
             <p>JavaScript</p>
             <p>React.js</p>
             <p>React Native</p>
+            <p>Tailwincss</p>
             <p>Node.js</p>
             <p>Python</p>
-            <p>Tailwincss</p>
+            <p>SQL</p>
           </div>
         </div>
       </div>
